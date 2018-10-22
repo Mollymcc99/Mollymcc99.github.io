@@ -119,11 +119,103 @@ div{
 	left: 25px;
 	width: 90px;
 	height: 110px;
-	overflow: hidden;
-}
+overflow: hidden;
+	}
 
+.a {
+	left: 150px;
+}
+.a1 {
+  left: 0px;
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-bottom: 200px solid rgb(0,0,0);
+}
+.a2 {
+	left: 4px;
+	top: 7px;
+  width: 0;
+  height: 0;
+  border-left: 66px solid transparent;
+  border-right: 66px solid transparent;
+  border-bottom: 191px solid rgb(255,255,255);
+}
+.a3 {
+	left: 7px;
+	top: 12px;
+  width: 0;
+  height: 0;
+  border-left: 63px solid transparent;
+  border-right: 63px solid transparent;
+  border-bottom: 184px solid rgb(0,0,0);
+}
+.a4 {
+	left: 11px;
+	top: 19px;
+  width: 0;
+  height: 0;
+  border-left: 59px solid transparent;
+  border-right: 59px solid transparent;
+  border-bottom: 174px solid rgb(255,255,255);
+}
+.a5 {
+		left: 15px;
+	top: 24px;
+  width: 0;
+  height: 0;
+  border-left: 55px solid transparent;
+  border-right: 55px solid transparent;
+  border-bottom: 167px solid rgb(0,0,0);
+}
+.a6 {
+	left: 19px;
+	top: 31px;
+  width: 0;
+  height: 0;
+  border-left: 51px solid transparent;
+  border-right: 51px solid transparent;
+  border-bottom: 157px solid rgb(255,255,255);
+}
+.a7 {
+		left: 22px;
+	top: 36px;
+  width: 0;
+  height: 0;
+  border-left: 48px solid transparent;
+  border-right: 48px solid transparent;
+  border-bottom: 150px solid rgb(0,0,0);
+}
+.a8 {
+	left: 26px;
+	top: 45px;
+  width: 0;
+  height: 0;
+  border-left: 44px solid transparent;
+  border-right: 44px solid transparent;
+  border-bottom: 138px solid rgb(255,255,255);
+}
+.a9 {
+	left: 30px;
+	top: 50px;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 131px solid rgb(0,0,0);
+}
+.a10 {
+	left: 35px;
+	top: 58px;
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 120px solid rgb(255,255,255);
+}
 .n {
-	left: 160px;
+	left: 300px;
 }
 .n1 {
 	width: 2px;
@@ -157,7 +249,7 @@ div{
 }
 .n6 {
 	width: 2px;
-	height: 174px;
+	height: 175px;
 	left: 56px;
 	top: 30px;
 	transform: rotate(-18deg); 
@@ -165,9 +257,9 @@ div{
 }
 .n7 {
 	width: 2px;
-	height: 192px;
-	left: 59px;
-	top: 12px;
+	height: 196px;
+	left: 58px;
+	top: 10px;
 	transform: rotate(-18deg); 
 	background-color: rgb(0,0,0);
 }
@@ -225,6 +317,86 @@ div{
 	left: 120px;
 	background-color: rgb(0,0,0);
 }
-
-
-
+.g {
+	left: 440px;
+}
+.g1 {
+	width: 200px;
+  height: 200px;
+  border: 2px solid rgb(0,0,0); 
+  border-radius: 50%;
+}
+.g2 {
+	width: 190px;
+  height: 190px;
+  left: 5px;
+  top: 5px;
+  border: 2px solid rgb(0,0,0); 
+  border-radius: 50%;
+}
+.g3 {
+	width: 180px;
+  height: 180px;
+  left: 10px;
+    top: 10px;
+  border: 2px solid rgb(0,0,0); 
+  border-radius: 50%;
+}
+.g4 {
+	width: 170px;
+  height: 170px;
+  left: 15px;
+    top: 15px;
+  border: 2px solid rgb(0,0,0); 
+  border-radius: 50%;
+}
+.g5 {
+	width: 160px;
+  height: 160px;
+  left: 20px;
+    top: 20px;
+  border: 2px solid rgb(0,0,0); 
+  border-radius: 50%;
+}
+.g6 {
+	width: 80px;
+	height: 100px;
+	top: 50px;
+	left: 140px;
+	background-color: rgb(255,255,255);
+}
+.g7 {
+	width: 70px;
+	height: 1px;
+	left: 123px;
+	top: 145px;
+	background-color: rgb(0,0,0);
+}
+.g8 {
+	width: 70px;
+	height: 2px;
+	left: 123px;
+	top: 140px;
+	background-color: rgb(0,0,0);
+}
+.g9 {
+	width: 70px;
+	height: 2px;
+	left: 123px;
+	top: 135px;
+	background-color: rgb(0,0,0);
+}
+.g10 {
+	width: 70px;
+	height: 2px;
+	left: 123px;
+	top: 130px;
+	background-color: rgb(0,0,0);
+}
+.g11 {
+	width: 70px;
+	height: 2px;
+	left: 123px;
+	top: 125px;
+	background-color: rgb(0,0,0);
+}
