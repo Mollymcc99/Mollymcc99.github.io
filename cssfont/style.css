@@ -6,15 +6,30 @@ body {
 }
 p {
 	color: rgb(255,255,255);
-  width: 500px;
+  width: 348px;
   position: absolute;
   left: 75px;
   top: 300px;
   font-family: Futura, Helvetica;
-  font-weight: 200;
-  font-size: 14px;
-  line-height: 31px;
+  font-weight: 100;
+  font-size: 11px;
+  line-height: 20px;
 
+
+}
+.line {
+	width: 2px;
+	height: 85px;
+	top: 310px;
+	left: 60px;
+	background-color: rgb(255,255,255);
+}
+.line2 {
+	width: 2px;
+	height: 85px;
+	top: 310px;
+	left: 55px;
+	background-color: rgb(255,255,255);
 }
 .r {
 	left: 20px;
