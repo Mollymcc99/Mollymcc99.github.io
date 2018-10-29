@@ -1,0 +1,43 @@
+.headline {
+	position: absolute;
+	top: 5vw;
+	left: 20px;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 20vw;
+	line-height: 38px;
+	font-weight: normal;
+	color: white;
+}
+
+.headline2 {
+	position: absolute;
+	top: 20vw;
+	left: 20px;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 20vw;
+	line-height: 38px;
+	font-weight: normal;
+	color: white;
+}
+
+.headline3 {
+	position: absolute;
+	top: 30vw;
+	left: 20px;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 5vw;
+	line-height: 38px;
+	font-weight: normal;
+	color: white;
+}
+
+.bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("pic1234.gif");
+	background-size: cover;
+	background-position: center;
+}
