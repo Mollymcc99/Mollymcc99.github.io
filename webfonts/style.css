@@ -8,7 +8,10 @@ font-family: 'Tenor Sans', sans-serif;
 	line-height: 30px;
 	font-weight: normal;
 	color: white;
-	
+	cursor: pointer;
+}
+.y:hover {
+	color: grey;
 }
 
 
@@ -22,7 +25,10 @@ font-family: 'Tenor Sans', sans-serif;
 	line-height: 30px;
 	font-weight: normal;
 	color: white;
-
+	cursor: pointer;
+}
+.s:hover {
+	color: grey;
 }
 
 .l {
@@ -35,7 +41,10 @@ font-family: 'Tenor Sans', sans-serif;
 	line-height: 30px;
 	font-weight: normal;
 	color: white;
-
+	cursor: pointer;
+}
+.l:hover {
+	color: grey;
 }
 
 .bg {
@@ -50,12 +59,13 @@ font-family: 'Tenor Sans', sans-serif;
 }
 .bg2{
 	position: absolute;
-	width: 102.4vw;
-	height: 250vh;
 	top: 100vh;
-	bottom: 0;
-	left: -20px;
+	background-size: cover;
+	background-position: center;
 	background-color: black;
+	left: 0;
+	width: 100vw;
+	height: 180vh;
 }
 
 .text1 {
@@ -82,7 +92,7 @@ font-family: 'Tenor Sans', sans-serif;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1.8vw;
   color: white;
-  width: 250px;
+  width: 240px;
   text-align: right;
   opacity: 0;
   transition: 0.6s opacity;
