@@ -65,7 +65,7 @@ font-family: 'Tenor Sans', sans-serif;
 	background-color: black;
 	left: 0;
 	width: 100vw;
-	height: 180vh;
+	height: 250vh;
 }
 
 .text1 {
@@ -79,6 +79,7 @@ font-family: 'Tenor Sans', sans-serif;
   width: 250px;
   opacity: 0;
   transition: 0.6s opacity;
+  cursor: pointer;
 }
 .text1:hover {
 	opacity: 1;
@@ -96,6 +97,7 @@ font-family: 'Tenor Sans', sans-serif;
   text-align: right;
   opacity: 0;
   transition: 0.6s opacity;
+  cursor: pointer;
 }
 .text2:hover {
 	opacity: 1;
@@ -111,10 +113,52 @@ font-family: 'Tenor Sans', sans-serif;
   opacity: 0;
   transition: 0.6s opacity;
   cursor: pointer;
-  width: 140px;
+  width: 200px;
 }
 .text3:hover {
 	opacity: 1;
+}
+.text4 {
+	position: absolute;
+	margin-top: 600px;
+  top: 100vh;
+  left: 43vw;
+	font-family: 'Tenor Sans', sans-serif;
+  font-size: 1.5vw;
+  color: white;
+  text-align: center;
+}
+.text5 {
+	position: absolute;
+	margin-top: 640px;
+  top: 100vh;
+  left: 37vw;
+	font-family: 'Tenor Sans', sans-serif;
+  font-size: 1.3vw;
+  color: white;
+  width: 250px;
+  text-align: center;
+}
+.text6 {
+position: absolute;
+	margin-top: 1100px;
+  top: 100vh;
+  left: 43vw;
+	font-family: 'Tenor Sans', sans-serif;
+  font-size: 1.5vw;
+  color: white;
+  text-align: center;
+}
+.text7 {
+position: absolute;
+	margin-top: 1500px;
+  top: 100vh;
+  left: 33.5vw;
+	font-family: 'Tenor Sans', sans-serif;
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+  cursor: pointer;
 }
 
 a {
@@ -126,21 +170,34 @@ a {
 	position: absolute;
 	top: 100vh;
 	margin-top: 700px;
-	left: 20vw;
+	left: 10vw;
 }
 
 .photo2 {
 	position: absolute;
 	top: 100vh;
 	margin-top: 700px;
-	left: 40vw;
+	left: 30vw;
 }
 
 .photo3 {
 	position: absolute;
 	top: 100vh;
 	margin-top: 700px;
-	left: 60vw;
+	left: 50vw;
+}
+.photo4 {
+	position: absolute;
+	top: 100vh;
+	margin-top: 700px;
+	left: 70vw;
+}
+
+.video1 {
+	position: absolute;
+	top: 100vh;
+	margin-top: 1150px;
+	left: 27vw;
 }
 
 @media (max-width: 711px) {
