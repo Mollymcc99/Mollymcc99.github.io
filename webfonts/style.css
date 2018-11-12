@@ -8,12 +8,12 @@ font-family: 'Tenor Sans', sans-serif;
 	line-height: 30px;
 	font-weight: normal;
 	color: white;
+	width: 600px;
 	cursor: pointer;
 }
 .y:hover {
 	color: grey;
 }
-
 
 .s {
 	position: absolute;
@@ -76,7 +76,7 @@ font-family: 'Tenor Sans', sans-serif;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1.8vw;
   color: white;
-  width: 250px;
+  width: 230px;
   opacity: 0;
   transition: 0.6s opacity;
   cursor: pointer;
@@ -93,7 +93,7 @@ font-family: 'Tenor Sans', sans-serif;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1.8vw;
   color: white;
-  width: 240px;
+  width: 220px;
   text-align: right;
   opacity: 0;
   transition: 0.6s opacity;
@@ -104,7 +104,7 @@ font-family: 'Tenor Sans', sans-serif;
 }
 .text3 {
 	position: absolute;
-	margin-top: 400px;
+	margin-top: 410px;
   top: 100vh;
   left: 55%;
 	font-family: 'Tenor Sans', sans-serif;
