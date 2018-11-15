@@ -52,14 +52,14 @@ font-family: 'Tenor Sans', sans-serif;
   	top: 0;
   	left: 0;
   	width: 100vw;
-  	height: 100vh;
+  	height: 90vh;
 	background-image: url("pic.gif");
 	background-size: cover;
 	background-position: center;
 }
 .bg2{
 	position: absolute;
-	top: 100vh;
+	top: 90vh;
 	background-size: cover;
 	background-position: center;
 	background-color: black;
@@ -71,7 +71,7 @@ font-family: 'Tenor Sans', sans-serif;
 .text1 {
 	position: absolute;
 	margin-top: 140px;
-  top: 100vh;
+  top: 90vh;
   left: 55%;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1.8vw;
@@ -88,7 +88,7 @@ font-family: 'Tenor Sans', sans-serif;
 .text2 {
 	position: absolute;
 	margin-top: 290px;
-  top: 100vh;
+  top: 90vh;
   left: 20%;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1.8vw;
@@ -105,7 +105,7 @@ font-family: 'Tenor Sans', sans-serif;
 .text3 {
 	position: absolute;
 	margin-top: 410px;
-  top: 100vh;
+  top: 90vh;
   left: 55%;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1.8vw;
@@ -120,9 +120,9 @@ font-family: 'Tenor Sans', sans-serif;
 }
 .text4 {
 	position: absolute;
-	margin-top: 600px;
-  top: 100vh;
-  left: 43vw;
+	margin-top: 610px;
+  top: 90vh;
+  left: 42.8vw;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1.5vw;
   color: white;
@@ -131,18 +131,19 @@ font-family: 'Tenor Sans', sans-serif;
 .text5 {
 	position: absolute;
 	margin-top: 640px;
-  top: 100vh;
+  top: 90vh;
   left: 37vw;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1.3vw;
   color: white;
-  width: 250px;
+  width: 230px;
   text-align: center;
+  line-height: 20px;
 }
 .text6 {
 position: absolute;
 	margin-top: 1100px;
-  top: 100vh;
+  top: 90vh;
   left: 43vw;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1.5vw;
@@ -152,7 +153,7 @@ position: absolute;
 .text7 {
 position: absolute;
 	margin-top: 1500px;
-  top: 100vh;
+  top: 90vh;
   left: 33.5vw;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1vw;
@@ -173,7 +174,7 @@ a {
 	background-position: center;
 	height: 300px;
 	width: 180px;
-	top: 100vh;
+	top: 90vh;
 	margin-top: 700px;
 	left: 10vw;
 	transition:  all 0.25s ease-in-out;
@@ -190,7 +191,7 @@ a {
 	background-position: center;
 	height: 300px;
 	width: 180px;
-	top: 100vh;
+	top: 90vh;
 	margin-top: 700px;
 	left: 30vw;
 	transition:  all 0.25s ease-in-out;
@@ -205,7 +206,7 @@ a {
 	background-image: url("3.png");
 	background-size: cover;
 	background-position: center;
-	top: 100vh;
+	top: 90vh;
 	height: 300px;
 	width: 180px;
 	margin-top: 700px;
@@ -223,7 +224,7 @@ a {
 	background-position: center;
 	height: 300px;
 	width: 180px;
-	top: 100vh;
+	top: 90vh;
 	margin-top: 700px;
 	left: 70vw;
 	transition:  all 0.25s ease-in-out;
@@ -235,7 +236,7 @@ a {
 
 .video1 {
 	position: absolute;
-	top: 100vh;
+	top: 90vh;
 	margin-top: 1150px;
 	left: 27vw;
 }
