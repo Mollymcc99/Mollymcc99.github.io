@@ -89,7 +89,7 @@ font-family: 'Tenor Sans', sans-serif;
 	position: absolute;
 	margin-top: 290px;
   top: 100vh;
-  left: 19%;
+  left: 20%;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1.8vw;
   color: white;
@@ -246,21 +246,76 @@ a {
   .bg {
   	background-image: url(pic.gif);
   }
+  .bg2 {
+  	height: 2000px;
+  }
   .photo1 {
-    left: 35vw;
-    top: 470px;
+    left: 28vw;
+    margin-top: 700px;
   }
   .photo2 {
-    left: 35vw;
-    top: 790px;
+    left: 28vw;
+    margin-top: 1020px;
   }
   .photo3 {
-    left: 35vw;
-    top: 1110px;
+    left: 28vw;
+    margin-top: 1350px;
   }
   .photo4 {
-  	  left: 35vw;
-    top: 1130px;
+  	  left: 28vw;
+    margin-top: 1670px;
+  }
+  .video1 {
+  	display: none;
+  }
+  .text4 {
+  	font-size: 14px;
+  	left: 146px;
+  }
+  .text5 {
+  	font-size: 13px;
+  	left: 70px;
+  }
+  .y {
+  	font-size: 170px;
+  	left: 125px;
+  	margin-top: 250px;
+  }
+  .s {
+  	font-size: 170px;
+  	left: 140px;
+  	margin-top: 300px;
+  }
+  .l {
+  	font-size: 170px;
+  	left: 175px;
+  	margin-top: 345px;
+  }
+  .text1 {
+  	font-size: 12px;
+  	left: 240px;
+  	margin-top: 210px;
+  	width: 140px;
+  }
+  .text2 {
+  	font-size: 12px;
+  	left: 5px;
+  	margin-top: 300px;
+  	width: 140px;
+  }
+  .text3 {
+  	font-size: 12px;
+  	left: 240px;
+  	margin-top: 380px;
+  	width: 140px;
+  }
+  .text6 {
+  	display: none;
+  }
+  .text7 {
+  	font-size: 11px;
+  	margin-top: 1980px;
+  	left: 30px;
   }
 }
 
