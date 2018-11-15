@@ -1,6 +1,6 @@
 .y {
 	position: absolute;
-	top: 100vh;
+	top: 90vh;
 	margin-top: 220px;
 	left: 38%;
 font-family: 'Tenor Sans', sans-serif;
@@ -17,7 +17,7 @@ font-family: 'Tenor Sans', sans-serif;
 
 .s {
 	position: absolute;
-	top: 100vh;
+	top: 90vh;
 	margin-top: 300px;
 	left: 40%;
 	font-family: 'Tenor Sans', sans-serif;
@@ -33,7 +33,7 @@ font-family: 'Tenor Sans', sans-serif;
 
 .l {
 	position: absolute;
-	top: 100vh;
+	top: 90vh;
 	margin-top: 380px;
 	left: 45%;
 	font-family: 'Tenor Sans', sans-serif;
@@ -77,13 +77,16 @@ font-family: 'Tenor Sans', sans-serif;
   font-size: 1.8vw;
   color: white;
   width: 230px;
-  opacity: 0;
+}
+  /*opacity: 0;
   transition: 0.6s opacity;
   cursor: pointer;
 }
+
 .text1:hover {
 	opacity: 1;
 }
+*/
 
 .text2 {
 	position: absolute;
@@ -95,13 +98,14 @@ font-family: 'Tenor Sans', sans-serif;
   color: white;
   width: 220px;
   text-align: right;
-  opacity: 0;
+}
+  /*opacity: 0;
   transition: 0.6s opacity;
   cursor: pointer;
 }
 .text2:hover {
 	opacity: 1;
-}
+}*/
 .text3 {
 	position: absolute;
 	margin-top: 410px;
@@ -110,7 +114,8 @@ font-family: 'Tenor Sans', sans-serif;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1.8vw;
   color: white;
-  opacity: 0;
+}
+ /* opacity: 0;
   transition: 0.6s opacity;
   cursor: pointer;
   width: 200px;
@@ -118,6 +123,7 @@ font-family: 'Tenor Sans', sans-serif;
 .text3:hover {
 	opacity: 1;
 }
+*/
 .text4 {
 	position: absolute;
 	margin-top: 610px;
