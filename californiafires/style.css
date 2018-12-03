@@ -1,0 +1,335 @@
+.timeline {
+
+}
+
+.a1 {
+	
+}
+.pic1 {
+	position: absolute;
+	background-image: url("castailake.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 200px;
+	left: 200px;
+}
+
+.a2 {
+	
+}
+.pic2 {
+		position: absolute;
+	background-image: url("oroville.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 450px;
+	left: 200px;
+	
+}
+
+.a3 {
+	
+}
+.pic3 {
+	position: absolute;
+	background-image: url("alamo.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 700px;
+	left: 200px;
+}
+
+.a4 {
+
+}
+.pic4 {
+	position: absolute;
+	background-image: url("wall.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 950px;
+	left: 200px;
+}
+
+.a5 {
+
+}
+.pic5 {
+	position: absolute;
+	background-image: url("detwiler.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 1200px;
+	left: 200px;
+}
+
+.a6 {
+
+}
+.pic6 {
+	position: absolute;
+	background-image: url("pier.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 1450px;
+	left: 200px;
+}
+
+.Bigpic1 {
+	position: absolute;
+	background-image: url("bigpic1.png");
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 800px;
+	top: 1700px;
+	left: 200px;
+}
+
+.a7 {
+
+}
+.pic7 {
+	position: absolute;
+	background-image: url("latuna.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 2200px;
+	left: 200px;
+}
+
+.a8 {
+
+}
+.pic8 {
+	position: absolute;
+	background-image: url("napa.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 2500px;
+	left: 200px;
+}
+
+.a9 {
+
+}
+.pic9 {
+	position: absolute;
+	background-image: url("anaheim.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 3000px;
+	left: 200px;
+}
+
+.Map1 {
+
+}
+
+.a10 {
+
+}
+.pic10 {
+	position: absolute;
+	background-image: url("york.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 3000px;
+	left: 200px;
+}
+
+.a11 {
+
+}
+.pic11 {
+	position: absolute;
+	background-image: url("mountwilson.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 4000px;
+	left: 200px;
+}
+
+.a12 {
+
+}
+.pic12 {
+	position: absolute;
+	background-image: url("nuns.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 4000px;
+	left: 200px;
+}
+
+.Bigpic2 {
+	position: absolute;
+	background-image: url("bigpic1.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 4000px;
+	left: 200px;
+}
+
+.a13 {
+
+}
+.pic13 {
+	position: absolute;
+	background-image: url("oakmont.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+top: 4000px;
+	left: 200px;
+}
+
+.a14 {
+
+}
+.pic14 {
+	position: absolute;
+	background-image: url("sonoma.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 4000px;
+left: 200px;
+}
+
+.a15 {
+
+}
+.pic15 {
+	position: absolute;
+	background-image: url("santapaula.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 4000px;
+	left: 200px;
+}
+
+.Bigpic2 {
+	position: absolute;
+	background-image: url("ventura.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 4000px;
+	left: 200px;
+}
+
+.a16 {
+
+}
+.pic16 {
+	position: absolute;
+	background-image: url("creek.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 4000px;
+	left: 200px;
+}
+
+.a17 {
+
+}
+.pic17 {
+	position: absolute;
+	background-image: url("liberty.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 4000px;
+	left: 200px;
+}
+
+.a18 {
+
+}
+.pic18 {
+	position: absolute;
+	background-image: url("lilac.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 4000px;
+	left: 200px;
+}
+
+.a19 {
+
+}
+.pic19 {
+	position: absolute;
+	background-image: url("thomas.png");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 4000px;
+	left: 200px;
+}
+
+.a20 {
+
+}
+.pic20 {
+	position: absolute;
+	background-image: url("hill.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 4000px;
+	left: 200px;
+}
+
+.a21 {
+
+}
+.pic21 {
+	position: absolute;
+	background-image: url("camp.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	width: 300px;
+	top: 4000px;
+	left: 200px;
+}
