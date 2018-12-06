@@ -1,179 +1,360 @@
-.timeline {
 
+.timeline {
+	position: absolute;
+	height: 6500px;
+	width: 5px;
+	top: 190px;
+	left: 190px;
+	background-color: white;
 }
 
+.bg {
+	background-color: rgb(38,36,35);
+	position: cover;
+	width: 1100px;
+	height: 6700px;
+	left: -30px;
+	top: -30px;
+}
+
+
 .a1 {
-	
+	position: absolute;
+	top: 280px;
+	left: 100px;
+	font-family: helvetica; 
+	font-size: 10pt;
+	color: white;
+}
+.b1 {
+	position: absolute;
+	top: 300px;
+	left: 65px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
 }
 .pic1 {
 	position: absolute;
 	background-image: url("castailake.png");
+	top: 200px;
+	margin-top: 8px;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 200px;
 	left: 200px;
 }
 
 .a2 {
-	
+	position: absolute;
+	top: 490px;
+	left: 105px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
+}
+.b2 {
+	position: absolute;
+	top: 510px;
+	left: 100px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
 }
 .pic2 {
-		position: absolute;
-	background-image: url("oroville.png");
+	position: absolute;
+	background-image: url("oroville.png");	
+	top: 410px;
+	margin-top: 8px;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 450px;
 	left: 200px;
-	
 }
 
 .a3 {
-	
+	position: absolute;
+	top: 700px;
+	left: 110px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
+}
+.b3 {
+	position: absolute;
+	top: 720px;
+	left: 110px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
 }
 .pic3 {
+	background-image: url("alamo.jpg");
 	position: absolute;
-	background-image: url("alamo.png");
+	top: 620px;
+	margin-top: 8px;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 700px;
 	left: 200px;
 }
 
 .a4 {
-
+	position: absolute;
+	top: 910px;
+	left: 110px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
+}
+.b4 {
+	position: absolute;
+	top: 930px;
+	left: 125px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
 }
 .pic4 {
 	position: absolute;
 	background-image: url("wall.png");
+	top: 830px;
+	margin-top: 8px;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 950px;
 	left: 200px;
 }
 
 .a5 {
-
+	position: absolute;
+	top: 1110px;
+	left: 105px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
+}
+.b5 {
+	position: absolute;
+	top: 1130px;
+	left: 90px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
 }
 .pic5 {
 	position: absolute;
 	background-image: url("detwiler.png");
+	top: 1050px;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 1200px;
 	left: 200px;
 }
 
-.a6 {
+.bigpic1 {
+	position: absolute;
+	background-image: url("bigpic1.png");
+	top: 1260px;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	width: 1000px;
+}
 
+.a6 {
+	position: absolute;
+	top: 1940px;
+	left: 85px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
+}
+.b6 {
+	position: absolute;
+	top: 1960px;
+	left: 125px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
 }
 .pic6 {
 	position: absolute;
 	background-image: url("pier.png");
+	top: 1870px;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 1450px;
 	left: 200px;
-}
 
-.Bigpic1 {
-	position: absolute;
-	background-image: url("bigpic1.png");
-	background-size: cover;
-	background-position: center;
-	height: 400px;
-	width: 800px;
-	top: 1700px;
-	left: 200px;
 }
 
 .a7 {
-
+	position: absolute;
+	top: 2150px;
+	left: 70px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
+}
+.b7 {
+	position: absolute;
+	top: 2170px;
+	left: 90px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
 }
 .pic7 {
 	position: absolute;
 	background-image: url("latuna.png");
+	top: 2080px;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 2200px;
 	left: 200px;
 }
 
 .a8 {
-
+	position: absolute;
+	top: 2360px;
+	left: 88px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
+}
+.b8 {
+	position: absolute;
+	top: 2380px;
+	left: 60px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
 }
 .pic8 {
 	position: absolute;
 	background-image: url("napa.png");
+	top: 2290px;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 2500px;
 	left: 200px;
 }
 
 .a9 {
-
+	position: absolute;
+	top: 2570px;
+	left: 90px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
+}
+.b9 {
+	position: absolute;
+	top: 2590px;
+	left: 60px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
 }
 .pic9 {
 	position: absolute;
 	background-image: url("anaheim.png");
+	top: 2500px;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 3000px;
 	left: 200px;
 }
 
-.Map1 {
-
-}
-
 .a10 {
-
+	position: absolute;
+	top: 2780px;
+	left: 80px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
+}
+.b10 {
+	position: absolute;
+	top: 2800px;
+	left: 124px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
 }
 .pic10 {
 	position: absolute;
 	background-image: url("york.png");
+	top: 2710px;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 3000px;
 	left: 200px;
 }
 
 .a11 {
-
+	position: absolute;
+	top: 3600px;
+	left: 80px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
 }
+.b11 {
+	position: absolute;
+	top: 3620px;
+	left: 53px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
+}
+.bigpic2 {
+	position: absolute;
+	background-image: url("bigpic2.png");
+	top: 2920px;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	width: 1000px;
+}
+
 .pic11 {
 	position: absolute;
 	background-image: url("mountwilson.png");
+	top: 3530px;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 4000px;
 	left: 200px;
 }
 
 .a12 {
-
+	position: absolute;
+	top: 3770px;
+	left: 80px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
+}
+.b12 {
+	position: absolute;
+	top: 3790px;
+	left: 110px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
 }
 .pic12 {
 	position: absolute;
@@ -182,23 +363,25 @@
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 4000px;
-	left: 200px;
-}
-
-.Bigpic2 {
-	position: absolute;
-	background-image: url("bigpic1.png");
-	background-size: cover;
-	background-position: center;
-	height: 200px;
-	width: 300px;
-	top: 4000px;
+	top: 3740px;
 	left: 200px;
 }
 
 .a13 {
-
+	position: absolute;
+	top: 4020px;
+	left: 80px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
+}
+.b13 {
+	position: absolute;
+	top: 4040px;
+	left: 85px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
 }
 .pic13 {
 	position: absolute;
@@ -207,12 +390,26 @@
 	background-position: center;
 	height: 200px;
 	width: 300px;
-top: 4000px;
+	top: 3950px;
 	left: 200px;
 }
 
-.a14 {
 
+.a14 {
+	position: absolute;
+	top: 4230px;
+	left: 80px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
+}
+.b14 {
+	position: absolute;
+	top: 4250px;
+	left: 35px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
 }
 .pic14 {
 	position: absolute;
@@ -221,12 +418,26 @@ top: 4000px;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 4000px;
-left: 200px;
+	top: 4160px;
+	left: 200px;
 }
 
-.a15 {
 
+.a15 {
+	position: absolute;
+	top: 4440px;
+	left: 70px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
+}
+.b15 {
+	position: absolute;
+	top: 4460px;
+	left: 60px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
 }
 .pic15 {
 	position: absolute;
@@ -235,101 +446,212 @@ left: 200px;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 4000px;
+	top: 4370px;
 	left: 200px;
 }
 
-.Bigpic2 {
+.bigpic3 {
+	position: absolute;
+	background-image: url("bigpic3.png");
+	top: 4580px;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	width: 1000px;
+}
+
+
+.a16 {
+	position: absolute;
+	top: 5260px;
+	left: 70px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
+}
+.b16 {
+	position: absolute;
+	top: 5280px;
+	left: 40px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
+}
+.pic16 {
 	position: absolute;
 	background-image: url("ventura.png");
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 4000px;
+	top: 5190px;
 	left: 200px;
 }
 
-.a16 {
 
+.a17 {
+	position: absolute;
+	top: 5470px;
+	left: 70px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
 }
-.pic16 {
+.b17 {
+	position: absolute;
+	top: 5490px;
+	left: 105px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
+}
+.pic17 {
 	position: absolute;
 	background-image: url("creek.png");
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 4000px;
+	top: 5400px;
 	left: 200px;
 }
 
-.a17 {
 
+.a18 {
+	position: absolute;
+	top: 5670px;
+	left: 70px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
 }
-.pic17 {
+.b18 {
+	position: absolute;
+	top: 5690px;
+	left: 100px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
+}
+.pic18 {
 	position: absolute;
 	background-image: url("liberty.png");
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 4000px;
+	top: 5610px;
 	left: 200px;
 }
 
-.a18 {
 
+.a19 {
+	position: absolute;
+	top: 5870px;
+	left: 70px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
 }
-.pic18 {
+.b19 {
+	position: absolute;
+	top: 5890px;
+	left: 120px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
+}
+.pic19 {
 	position: absolute;
 	background-image: url("lilac.png");
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 4000px;
+	top: 5820px;
 	left: 200px;
 }
 
-.a19 {
 
+.a20 {
+	position: absolute;
+	top: 6110px;
+	left: 60px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
 }
-.pic19 {
+.b20 {
+	position: absolute;
+	top: 6130px;
+	left: 85px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
+}
+.pic20 {
 	position: absolute;
 	background-image: url("thomas.png");
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 4000px;
+	top: 6030px;
 	left: 200px;
 }
 
-.a20 {
 
+.a21 {
+	position: absolute;
+	top: 6320px;
+	left: 70px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
 }
-.pic20 {
+.b21 {
+	position: absolute;
+	top: 6340px;
+	left: 125px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
+}
+.pic21 {
 	position: absolute;
 	background-image: url("hill.jpg");
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 4000px;
+	top: 6240px;
 	left: 200px;
 }
 
-.a21 {
 
+.a22 {
+	position: absolute;
+	top: 6530px;
+	left: 75px;
+	font-family: helvetica;
+	font-size: 10pt;
+	color: white;
 }
-.pic21 {
+.b22 {
+	position: absolute;
+	top: 6550px;
+	left: 110px;
+	font-family: helvetica;
+	font-size: 12pt;
+	color: white;
+}
+.pic22 {
 	position: absolute;
 	background-image: url("camp.jpg");
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	top: 4000px;
+	top: 6450px;
 	left: 200px;
 }
