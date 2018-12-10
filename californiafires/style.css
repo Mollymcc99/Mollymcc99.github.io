@@ -1,160 +1,268 @@
+.head1 {
+	position: absolute;
+	top: 3vh;
+	left: 18.3vw;
+	color: white;
+	font-family: adelle sans;
+	font-size: 40pt;
+}
+
+.head2 {
+	position: absolute;
+	top: 11.5vh;
+	left: 18.3vw;
+	color: white;
+	font-family: adelle sans;
+	font-size: 40pt;
+}
+
+.head3 {
+	position: absolute;
+	top: 19vh;
+	left: 18.3vw;
+	color: white;
+	font-family: adelle sans;
+	font-size: 60pt;
+}
+
+.ca {
+	position: absolute;
+	background-image: url("ca.gif");
+	top: 0vh;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 200px;
+	left: 40vw;
+}
 
 .timeline {
-	position: absolute;
-	height: 6500px;
+	position: relative;
+	height: 6700px;
 	width: 5px;
-	top: 190px;
-	left: 190px;
+	left: 16.5vw;
 	background-color: white;
 }
 
 .bg {
-	background-color: rgb(38,36,35);
-	position: cover;
-	width: 1100px;
-	height: 6700px;
-	left: -30px;
-	top: -30px;
+	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100vw;
+  	height: 6700px;
+	background-image: url("fire.gif");
+	background-position: center;
+
 }
 
 
 .a1 {
 	position: absolute;
-	top: 280px;
-	left: 100px;
-	font-family: helvetica; 
+	top: 44vh;
+	left: 9.7vw;
+	font-family: adelle sans; 
 	font-size: 10pt;
 	color: white;
 }
 .b1 {
 	position: absolute;
-	top: 300px;
-	left: 65px;
-	font-family: helvetica;
+	top: 47vh;
+	left: 5.6vw;
+	font-family: adelle sans;
 	font-size: 12pt;
+	color: white;
+}
+.c1 {
+	position: absolute;
+	top: 41vh;
+	left: 50vw;
+	font-family: adelle sans;
+	font-size: 16pt;
+	letter-spacing: 1pt;
+	width: 500px;
+
+	transition:  all 0.25s ease-in-out;
+}
+.c1:hover {
+	font-size: 18pt;
+}
+a {
+	text-decoration: none;
 	color: white;
 }
 .pic1 {
 	position: absolute;
 	background-image: url("castailake.png");
-	top: 200px;
-	margin-top: 8px;
+	top: 33vh;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	left: 200px;
+	left: 18.5vw;
 }
 
 .a2 {
 	position: absolute;
-	top: 490px;
-	left: 105px;
-	font-family: helvetica;
+	top: 80vh;
+left: 10.6vw;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
 .b2 {
 	position: absolute;
-	top: 510px;
-	left: 100px;
-	font-family: helvetica;
+	top: 83vh;
+left: 9.4vw;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c2 {
+	position: absolute;
+	top: 78vh;
+	left: 50vw;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 500px;
+	transition:  all 0.25s ease-in-out;
+}
+.c2:hover {
+	font-size: 18pt;
 }
 .pic2 {
 	position: absolute;
 	background-image: url("oroville.png");	
-	top: 410px;
-	margin-top: 8px;
+	top: 66.5vh;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	left: 200px;
+	left: 18.5vw;
 }
 
 .a3 {
 	position: absolute;
-	top: 700px;
-	left: 110px;
-	font-family: helvetica;
+	top: 115vh;
+	left: 10.5vw;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
 .b3 {
 	position: absolute;
-	top: 720px;
-	left: 110px;
-	font-family: helvetica;
+	top: 118vh;
+	left: 10vw;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c3 {
+	position: absolute;
+	top: 111vh;
+	left: 50vw;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 450px;
+	transition:  all 0.25s ease-in-out;
+}
+.c3:hover {
+	font-size: 18pt;
 }
 .pic3 {
 	background-image: url("alamo.jpg");
 	position: absolute;
-	top: 620px;
-	margin-top: 8px;
+	top: 100vh;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	left: 200px;
+	left: 18.5vw;
 }
 
 .a4 {
 	position: absolute;
-	top: 910px;
-	left: 110px;
-	font-family: helvetica;
+	top: 149vh;
+	left: 10.5vw;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
 .b4 {
 	position: absolute;
-	top: 930px;
-	left: 125px;
-	font-family: helvetica;
+	top: 152vh;
+	left: 11.3vw;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c4 {
+	position: absolute;
+	top: 143vh;
+	left: 50vw;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 450px;
+	transition:  all 0.25s ease-in-out;
+}
+.c4:hover {
+	font-size: 18pt;
 }
 .pic4 {
 	position: absolute;
 	background-image: url("wall.png");
-	top: 830px;
-	margin-top: 8px;
+	top: 133vh;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	left: 200px;
+	left: 18.5vw;
 }
 
 .a5 {
 	position: absolute;
-	top: 1110px;
-	left: 105px;
-	font-family: helvetica;
+	top: 179vh;
+	left: 10vw;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
 .b5 {
 	position: absolute;
-	top: 1130px;
-	left: 90px;
-	font-family: helvetica;
+	top: 182vh;
+	left: 8vw;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c5 {
+	position: absolute;
+	top: 177vh;
+	left: 50vw;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 400px;
+	transition:  all 0.25s ease-in-out;
+}
+.c5:hover {
+	font-size: 18pt;
 }
 .pic5 {
 	position: absolute;
 	background-image: url("detwiler.png");
-	top: 1050px;
+	top: 167vh;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	left: 200px;
+	left: 18.5vw;
 }
 
 .bigpic1 {
@@ -169,29 +277,43 @@
 
 .a6 {
 	position: absolute;
-	top: 1940px;
-	left: 85px;
-	font-family: helvetica;
+	top: 310vh;
+	left: 8vw;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
 .b6 {
 	position: absolute;
-	top: 1960px;
-	left: 125px;
-	font-family: helvetica;
+	top: 313vh;
+	left: 11vw;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c6 {
+	position: absolute;
+	top: 306vh;
+	left: 50vw;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 400px;
+	transition:  all 0.25s ease-in-out;
+}
+.c6:hover {
+	font-size: 18pt;
 }
 .pic6 {
 	position: absolute;
 	background-image: url("pier.png");
-	top: 1870px;
+	top: 297vh;
 	background-size: cover;
 	background-position: center;
 	height: 200px;
 	width: 300px;
-	left: 200px;
+	left: 18.5vw;
 
 }
 
@@ -199,7 +321,7 @@
 	position: absolute;
 	top: 2150px;
 	left: 70px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
@@ -207,9 +329,23 @@
 	position: absolute;
 	top: 2170px;
 	left: 90px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c7 {
+	position: absolute;
+	top: 2110px;
+	left: 550px;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 400px;
+	transition:  all 0.25s ease-in-out;
+}
+.c7:hover {
+	font-size: 18pt;
 }
 .pic7 {
 	position: absolute;
@@ -224,19 +360,33 @@
 
 .a8 {
 	position: absolute;
-	top: 2360px;
+	top: 2370px;
 	left: 88px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
 .b8 {
 	position: absolute;
-	top: 2380px;
+	top: 2390px;
 	left: 60px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c8 {
+	position: absolute;
+	top: 2340px;
+	left: 550px;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 450px;
+	transition:  all 0.25s ease-in-out;
+}
+.c8:hover {
+	font-size: 18pt;
 }
 .pic8 {
 	position: absolute;
@@ -253,7 +403,7 @@
 	position: absolute;
 	top: 2570px;
 	left: 90px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
@@ -261,9 +411,23 @@
 	position: absolute;
 	top: 2590px;
 	left: 60px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c9 {
+	position: absolute;
+	top: 2540px;
+	left: 550px;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 400px;
+	transition:  all 0.25s ease-in-out;
+}
+.c9:hover {
+	font-size: 18pt;
 }
 .pic9 {
 	position: absolute;
@@ -280,7 +444,7 @@
 	position: absolute;
 	top: 2780px;
 	left: 80px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
@@ -288,9 +452,23 @@
 	position: absolute;
 	top: 2800px;
 	left: 124px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c10 {
+	position: absolute;
+	top: 2750px;
+	left: 550px;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 450px;
+	transition:  all 0.25s ease-in-out;
+}
+.c10:hover {
+	font-size: 18pt;
 }
 .pic10 {
 	position: absolute;
@@ -307,7 +485,7 @@
 	position: absolute;
 	top: 3600px;
 	left: 80px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
@@ -315,9 +493,23 @@
 	position: absolute;
 	top: 3620px;
 	left: 53px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c11 {
+	position: absolute;
+	top: 3570px;
+	left: 550px;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 450px;
+	transition:  all 0.25s ease-in-out;
+}
+.c11:hover {
+	font-size: 18pt;
 }
 .bigpic2 {
 	position: absolute;
@@ -342,19 +534,33 @@
 
 .a12 {
 	position: absolute;
-	top: 3770px;
+	top: 3820px;
 	left: 80px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
 .b12 {
 	position: absolute;
-	top: 3790px;
+	top: 3840px;
 	left: 110px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c12 {
+	position: absolute;
+	top: 3790px;
+	left: 550px;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 450px;
+	transition:  all 0.25s ease-in-out;
+}
+.c12:hover {
+	font-size: 18pt;
 }
 .pic12 {
 	position: absolute;
@@ -371,7 +577,7 @@
 	position: absolute;
 	top: 4020px;
 	left: 80px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
@@ -379,9 +585,23 @@
 	position: absolute;
 	top: 4040px;
 	left: 85px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c13 {
+	position: absolute;
+	top: 4000px;
+	left: 550px;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 450px;
+	transition:  all 0.25s ease-in-out;
+}
+.c13:hover {
+	font-size: 18pt;
 }
 .pic13 {
 	position: absolute;
@@ -399,7 +619,7 @@
 	position: absolute;
 	top: 4230px;
 	left: 80px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
@@ -407,9 +627,23 @@
 	position: absolute;
 	top: 4250px;
 	left: 35px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c14 {
+	position: absolute;
+	top: 4200px;
+	left: 550px;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 450px;
+	transition:  all 0.25s ease-in-out;
+}
+.c14:hover {
+	font-size: 18pt;
 }
 .pic14 {
 	position: absolute;
@@ -427,7 +661,7 @@
 	position: absolute;
 	top: 4440px;
 	left: 70px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
@@ -435,9 +669,23 @@
 	position: absolute;
 	top: 4460px;
 	left: 60px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c15 {
+	position: absolute;
+	top: 4420px;
+	left: 550px;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 450px;
+	transition:  all 0.25s ease-in-out;
+}
+.c15:hover {
+	font-size: 18pt;
 }
 .pic15 {
 	position: absolute;
@@ -463,19 +711,33 @@
 
 .a16 {
 	position: absolute;
-	top: 5260px;
-	left: 70px;
-	font-family: helvetica;
+	top: 200vh;
+	left: 11vw;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
 .b16 {
 	position: absolute;
-	top: 5280px;
-	left: 40px;
-	font-family: helvetica;
+	top: 203vh;
+	left: 12vw;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c16 {
+	position: absolute;
+	top: 5230px;
+	left: 550px;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 450px;
+	transition:  all 0.25s ease-in-out;
+}
+.c16:hover {
+	font-size: 18pt;
 }
 .pic16 {
 	position: absolute;
@@ -493,7 +755,7 @@
 	position: absolute;
 	top: 5470px;
 	left: 70px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
@@ -501,9 +763,23 @@
 	position: absolute;
 	top: 5490px;
 	left: 105px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c17 {
+	position: absolute;
+	top: 5450px;
+	left: 550px;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 450px;
+	transition:  all 0.25s ease-in-out;
+}
+.c17:hover {
+	font-size: 18pt;
 }
 .pic17 {
 	position: absolute;
@@ -521,7 +797,7 @@
 	position: absolute;
 	top: 5670px;
 	left: 70px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
@@ -529,9 +805,23 @@
 	position: absolute;
 	top: 5690px;
 	left: 100px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c18 {
+	position: absolute;
+	top: 5650px;
+	left: 550px;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 450px;
+	transition:  all 0.25s ease-in-out;
+}
+.c18:hover {
+	font-size: 18pt;
 }
 .pic18 {
 	position: absolute;
@@ -549,7 +839,7 @@
 	position: absolute;
 	top: 5870px;
 	left: 70px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
@@ -557,9 +847,23 @@
 	position: absolute;
 	top: 5890px;
 	left: 120px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c19 {
+	position: absolute;
+	top: 5870px;
+	left: 550px;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 450px;
+	transition:  all 0.25s ease-in-out;
+}
+.c19:hover {
+	font-size: 18pt;
 }
 .pic19 {
 	position: absolute;
@@ -577,7 +881,7 @@
 	position: absolute;
 	top: 6110px;
 	left: 60px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
@@ -585,9 +889,23 @@
 	position: absolute;
 	top: 6130px;
 	left: 85px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c20 {
+	position: absolute;
+	top: 6080px;
+	left: 550px;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 450px;
+	transition:  all 0.25s ease-in-out;
+}
+.c20:hover {
+	font-size: 18pt;
 }
 .pic20 {
 	position: absolute;
@@ -605,7 +923,7 @@
 	position: absolute;
 	top: 6320px;
 	left: 70px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
@@ -613,9 +931,23 @@
 	position: absolute;
 	top: 6340px;
 	left: 125px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c21 {
+	position: absolute;
+	top: 6300px;
+	left: 550px;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 450px;
+	transition:  all 0.25s ease-in-out;
+}
+.c21:hover {
+	font-size: 18pt;
 }
 .pic21 {
 	position: absolute;
@@ -633,7 +965,7 @@
 	position: absolute;
 	top: 6530px;
 	left: 75px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 10pt;
 	color: white;
 }
@@ -641,9 +973,23 @@
 	position: absolute;
 	top: 6550px;
 	left: 110px;
-	font-family: helvetica;
+	font-family: adelle sans;
 	font-size: 12pt;
 	color: white;
+}
+.c22 {
+	position: absolute;
+	top: 6520px;
+	left: 550px;
+	font-family: adelle sans;
+	font-size: 16pt;
+	color: white;
+	letter-spacing: 1pt;
+	width: 450px;
+	transition:  all 0.25s ease-in-out;
+}
+.c22:hover {
+	font-size: 18pt;
 }
 .pic22 {
 	position: absolute;
@@ -655,3 +1001,9 @@
 	top: 6450px;
 	left: 200px;
 }
+
+@media (max-width: 711px) {
+
+	.pic1 {
+		left: 
+	}
