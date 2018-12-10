@@ -31,9 +31,10 @@
 	top: 0vh;
 	background-size: cover;
 	background-position: center;
-	height: 250px;
-	width: 200px;
-	left: 40vw;
+	height: 200px;
+	width: 150px;
+	left: 57vw;
+	transform: rotate(-7deg);
 }
 
 .timeline {
@@ -52,7 +53,6 @@
   	height: 6700px;
 	background-image: url("fire.gif");
 	background-position: center;
-
 }
 
 
@@ -1001,9 +1001,3 @@ left: 9.4vw;
 	top: 6450px;
 	left: 200px;
 }
-
-@media (max-width: 711px) {
-
-	.pic1 {
-		left: 
-	}
