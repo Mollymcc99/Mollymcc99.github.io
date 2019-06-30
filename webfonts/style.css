@@ -1,6 +1,6 @@
 .y {
 	position: absolute;
-	top: 75vh;
+	top: 80vh;
 	margin-top: 220px;
 	left: 38%;
 font-family: 'Tenor Sans', sans-serif;
@@ -17,7 +17,7 @@ font-family: 'Tenor Sans', sans-serif;
 
 .s {
 	position: absolute;
-	top: 75vh;
+	top: 78vh;
 	margin-top: 300px;
 	left: 40%;
 	font-family: 'Tenor Sans', sans-serif;
@@ -71,7 +71,7 @@ font-family: 'Tenor Sans', sans-serif;
 .text1 {
 	position: absolute;
 	margin-top: 140px;
-  top: 75vh;
+  top: 80vh;
   left: 55%;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1.8vw;
@@ -92,7 +92,7 @@ font-family: 'Tenor Sans', sans-serif;
 	position: absolute;
 	margin-top: 290px;
   top: 75vh;
-  left: 20%;
+  left: 24%;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1.8vw;
   color: white;
@@ -128,7 +128,7 @@ font-family: 'Tenor Sans', sans-serif;
 	position: absolute;
 	margin-top: 610px;
   top: 75vh;
-  left: 42.8vw;
+  left: 41.5vw;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1.5vw;
   color: white;
@@ -138,11 +138,11 @@ font-family: 'Tenor Sans', sans-serif;
 	position: absolute;
 	margin-top: 640px;
   top: 75vh;
-  left: 37vw;
+  left: 39vw;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1.3vw;
   color: white;
-  width: 230px;
+  width: 210px;
   text-align: center;
   line-height: 20px;
 }
@@ -150,7 +150,7 @@ font-family: 'Tenor Sans', sans-serif;
 position: absolute;
 	margin-top: 1100px;
   top: 75vh;
-  left: 43vw;
+  left: 41vw;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1.5vw;
   color: white;
@@ -160,7 +160,7 @@ position: absolute;
 position: absolute;
 	margin-top: 1500px;
   top: 75vh;
-  left: 33.5vw;
+  left: 33vw;
 	font-family: 'Tenor Sans', sans-serif;
   font-size: 1vw;
   color: white;
@@ -180,7 +180,7 @@ a {
 	background-position: center;
 	height: 300px;
 	width: 180px;
-	top: 75vh;
+	top: 80vh;
 	margin-top: 700px;
 	left: 10vw;
 	transition:  all 0.25s ease-in-out;
@@ -197,7 +197,7 @@ a {
 	background-position: center;
 	height: 300px;
 	width: 180px;
-	top: 75vh;
+	top: 80vh;
 	margin-top: 700px;
 	left: 30vw;
 	transition:  all 0.25s ease-in-out;
@@ -212,7 +212,7 @@ a {
 	background-image: url("3.png");
 	background-size: cover;
 	background-position: center;
-	top: 75vh;
+	top: 80vh;
 	height: 300px;
 	width: 180px;
 	margin-top: 700px;
@@ -230,7 +230,7 @@ a {
 	background-position: center;
 	height: 300px;
 	width: 180px;
-	top: 75vh;
+	top: 80vh;
 	margin-top: 700px;
 	left: 70vw;
 	transition:  all 0.25s ease-in-out;
@@ -244,7 +244,7 @@ a {
 	position: absolute;
 	top: 75vh;
 	margin-top: 1150px;
-	left: 27vw;
+	left: 29vw;
 }
 
 @media (max-width: 711px) {
@@ -277,11 +277,11 @@ a {
   }
   .text4 {
   	font-size: 14px;
-  	left: 143px;
+  	left: 180px;
   }
   .text5 {
   	font-size: 13px;
-  	left: 130px;
+  	left: 170px;
   	width: 125px;
   }
   .y {
@@ -323,7 +323,8 @@ a {
   .text7 {
   	font-size: 11px;
   	margin-top: 2000px;
-  	left: 30px;
+  	left: 70px;
+    top: 580px;
   }
 }
 
