@@ -1,0 +1,280 @@
+div {
+	position: relative;
+}
+.bg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 375px;
+	height: 1000px;
+	background-size: cover;
+	background-color: black;
+} 
+.bg2 {
+	position: absolute;
+	top: 400px;
+	left: 0;
+	width: 375px;
+	height: 5850px;
+	background-size: cover;
+	background-color: black;
+}
+.bg3 {
+	position: absolute;
+	top: 400px;
+	left: 0;
+	width: 375px;
+	height: 6150px;
+	background-size: cover;
+	background-color: black;
+}
+.bg4 {
+	position: absolute;
+	top: 400px;
+	left: 0;
+	width: 375px;
+	height: 6000px;
+	background-size: cover;
+	background-color: black;
+}
+.bg5 {
+	position: absolute;
+	top: 400px;
+	left: 0;
+	width: 375px;
+	height: 7200px;
+	background-size: cover;
+	background-color: black;
+}
+.w {
+	border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;      
+  font-size: 28px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+left: 42px;
+	top: 10px;
+	font-family: fresno, sans-serif, monospace;
+	font-weight: 400;
+	font-style: italic;
+	animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
+}
+.title {
+	font-family: fresno, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 35px;
+	left: -10px;
+	top: -20px;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+}
+.title2 {
+	position: absolute;
+	top: 55px;
+	font-family: fresno, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: normal;
+	color: white;
+	width: 185px;
+	left: 10px;
+}
+.title3 {
+	position: absolute;
+	top: 170px;
+	font-family: fresno, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: normal;
+	color: white;
+	width: 185px;
+	left: 10px;
+}
+.title4 {
+	position: absolute;
+	top: 140px;
+	font-family: fresno, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: normal;
+	color: white;
+	width: 300px;
+	left: 10px;
+}
+.title5 {
+	position: absolute;
+	top: 150px;
+	font-family: fresno, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: normal;
+	color: white;
+	width: 250px;
+	left: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-family: interstate, sans-serif;
+	font-weight: 300;
+	font-size: 25px;
+	position: relative;
+	top: 20px;
+}
+.names {
+	position: absolute;
+	text-align: center;
+	top: 260px;
+	left: 30px;
+	color: white;
+	transition: text 0.25s ease-in-out;
+	cursor: pointer;
+	font-size: 25px;
+	font-family: interstate, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	width: 320px;
+	line-height: 60px;
+}
+.names: hover {
+  color: red;
+}
+.body1 {
+	font-size: 15px;
+	font-family: interstate, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: white;
+	width: 320px;
+	left: 0px;
+	top: 80px;
+	text-align: left;
+}
+.q {
+	position: relative;
+	font-size: 15px;
+	font-family: interstate, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	color: grey;
+	width: 280px;
+	top: 170px;
+	left: 20px;
+	margin-bottom: 30px;
+	text-align: right;
+}
+.a {
+	position: relative;
+	font-size: 15px;
+	font-family: interstate, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: white;
+	width: 280px;
+	left: 0px;
+	top: 170px;
+	margin-bottom: 30px;
+	text-align: left;
+	}
+.img1 {
+	position: absolute;
+	top: 0px;
+	left: -224px;
+}
+.sub {
+	position: absolute;
+	top: 205px;
+	left: 10px;
+	color: white;
+	font-family: interstate, sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 8.5px;
+}
+.sub2 {
+	position: absolute;
+	top: 320px;
+	left: 10px;
+	color: white;
+	font-family: interstate, sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 8.5px;
+}
+.sub3 {
+	position: absolute;
+	top: 290px;
+	left: 10px;
+	color: white;
+	font-family: interstate, sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 8.5px;
+}
+.sub4 {
+	position: absolute;
+	top: 340px;
+	left: 10px;
+	color: white;
+	font-family: interstate, sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 8.5px;
+}
+.shape {
+	position: relative;
+	width: 15px;
+	height: 5px;
+	background-color: white;
+	border-radius: 32px 0 32px 0;
+	top: 135px;
+	left: 145px;
+}
+.shape2 {
+	position: relative;
+	width: 15px;
+	height: 5px;
+	background-color: white;
+	border-radius: 32px 0 32px 0;
+	top: 130px;
+	left: 126px;
+}
+.shape3 {
+	position: relative;
+	width: 15px;
+	height: 5px;
+	background-color: white;
+	border-radius: 32px 0 32px 0;
+	top: 125px;
+	left: 163px;
+}
+.img2 {
+	position: absolute;
+	top: 0px;
+	left: -225px;
+}
+.img3 {
+	position: absolute;
+	top: 0px;
+	left: -0px;
+}
+.img4 {
+	position: absolute;
+	top: 0px;
+	left: -100px;
+}
