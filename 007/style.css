@@ -15,39 +15,48 @@ div {
 	top: 400px;
 	left: 0;
 	width: 375px;
-	height: 5850px;
+	height: 6700px;
 	background-size: cover;
-	background-color: black;
+	background-color: #161D26;
 }
 .bg3 {
 	position: absolute;
 	top: 400px;
 	left: 0;
 	width: 375px;
-	height: 6150px;
+	height: 7000px;
 	background-size: cover;
-	background-color: black;
+	background-color: #161D26;
 }
 .bg4 {
 	position: absolute;
 	top: 400px;
 	left: 0;
 	width: 375px;
-	height: 6000px;
+	height: 7000px;
 	background-size: cover;
-	background-color: black;
+	background-color: #161D26;
 }
 .bg5 {
 	position: absolute;
-	top: 400px;
+	top: 248px;
 	left: 0;
 	width: 375px;
-	height: 7200px;
+	height: 8400px;
 	background-size: cover;
-	background-color: black;
+	background-color: #161D26;
+}
+.bg6 {
+	position: absolute;
+	top: 248px;
+	left: 0;
+	width: 375px;
+	height: 1450px;
+	background-size: cover;
+	background-color: #161D26;
 }
 .w {
-	border-right: solid 3px rgba(0,255,0,.75);
+	border-right: solid 3px #6A95A6;
   white-space: nowrap;
   overflow: hidden;      
   font-size: 28px;
@@ -75,7 +84,7 @@ left: 42px;
 	left: -10px;
 	top: -20px;
 	font-weight: normal;
-	color: white;
+	color: #6A95A6;
 	text-align: center;
 }
 .title2 {
@@ -86,9 +95,10 @@ left: 42px;
 	font-style: italic;
 	font-size: 20px;
 	font-weight: normal;
-	color: white;
+	color: #6A95A6;
 	width: 185px;
 	left: 10px;
+	letter-spacing: .25px;
 }
 .title3 {
 	position: absolute;
@@ -98,9 +108,10 @@ left: 42px;
 	font-style: italic;
 	font-size: 20px;
 	font-weight: normal;
-	color: white;
-	width: 185px;
+	color: #6A95A6;
+	width: 270px;
 	left: 10px;
+	letter-spacing: 2px;
 }
 .title4 {
 	position: absolute;
@@ -110,31 +121,40 @@ left: 42px;
 	font-style: italic;
 	font-size: 20px;
 	font-weight: normal;
-	color: white;
+	color: #6A95A6;
 	width: 300px;
 	left: 10px;
 }
 .title5 {
 	position: absolute;
-	top: 150px;
+	top: 40px;
 	font-family: fresno, sans-serif;
 	font-weight: 400;
 	font-style: italic;
 	font-size: 20px;
 	font-weight: normal;
-	color: white;
+	color: #6A95A6;
+	width: 230px;
+	left: 25px;
+}
+.title6 {
+	position: absolute;
+	top: 270px;
+	font-family: fresno, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: normal;
+	color: #6A95A6;
 	width: 250px;
-	left: 10px;
+	left: 25px;
 }
 
 a {
 	text-decoration: none;
 	color: white;
-	font-family: interstate, sans-serif;
-	font-weight: 300;
-	font-size: 25px;
-	position: relative;
-	top: 20px;
+	cursor: pointer;
+	transition: text 0.25s ease-in-out;
 }
 .names {
 	position: absolute;
@@ -142,23 +162,31 @@ a {
 	top: 260px;
 	left: 30px;
 	color: white;
-	transition: text 0.25s ease-in-out;
-	cursor: pointer;
 	font-size: 25px;
-	font-family: interstate, sans-serif;
-	font-weight: 300;
-	font-style: normal;
+	
+font-family: transat-text, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
 	width: 320px;
 	line-height: 60px;
+
 }
 .names: hover {
-  color: red;
+		color: #6A95A6;
+	cursor: pointer;
+	transition: text 0.25s ease-in-out;
 }
+
 .body1 {
 	font-size: 15px;
-	font-family: interstate, sans-serif;
-	font-weight: 300;
-	font-style: normal;
+	
+font-family: transat-text, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
 	color: white;
 	width: 320px;
 	left: 0px;
@@ -168,28 +196,34 @@ a {
 .q {
 	position: relative;
 	font-size: 15px;
-	font-family: interstate, sans-serif;
-	font-weight: 700;
+	
+font-family: transat-text, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
 	font-style: italic;
-	color: grey;
+	color: #6A95A6;
 	width: 280px;
 	top: 170px;
 	left: 20px;
-	margin-bottom: 30px;
-	text-align: right;
+	margin-bottom: 35px;
+	margin-left: 15px;
+	text-align: left;
 }
 .a {
 	position: relative;
-	font-size: 15px;
-	font-family: interstate, sans-serif;
-	font-weight: 300;
-	font-style: normal;
+	font-size: 15px;	
+font-family: transat-text, sans-serif;
+font-weight: 300;
+font-style: normal;
 	color: white;
 	width: 280px;
-	left: 0px;
+	left: 2px;
 	top: 170px;
-	margin-bottom: 30px;
+	margin-bottom: 35px;
 	text-align: left;
+	margin-left: -10px;
 	}
 .img1 {
 	position: absolute;
@@ -201,8 +235,10 @@ a {
 	top: 205px;
 	left: 10px;
 	color: white;
-	font-family: interstate, sans-serif;
-	font-weight: 300;
+	
+font-family: transat-text, sans-serif;
+
+font-weight: 300;
 	font-style: italic;
 	font-size: 8.5px;
 }
@@ -211,8 +247,11 @@ a {
 	top: 320px;
 	left: 10px;
 	color: white;
-	font-family: interstate, sans-serif;
-	font-weight: 300;
+	
+font-family: transat-text, sans-serif;
+
+font-weight: 300;
+
 	font-style: italic;
 	font-size: 8.5px;
 }
@@ -221,18 +260,26 @@ a {
 	top: 290px;
 	left: 10px;
 	color: white;
-	font-family: interstate, sans-serif;
-	font-weight: 300;
+	
+font-family: transat-text, sans-serif;
+
+font-weight: 300;
+
+
 	font-style: italic;
 	font-size: 8.5px;
 }
 .sub4 {
 	position: absolute;
-	top: 340px;
-	left: 10px;
+	top: 280px;
+	left: 30px;
 	color: white;
-	font-family: interstate, sans-serif;
-	font-weight: 300;
+	
+font-family: transat-text, sans-serif;
+
+font-weight: 300;
+
+
 	font-style: italic;
 	font-size: 8.5px;
 }
@@ -276,5 +323,115 @@ a {
 .img4 {
 	position: absolute;
 	top: 0px;
-	left: -100px;
+	left: 0px;
+}
+.footer {
+	color: white;
+	font-size: 20px;
+	top: 280px;
+	columns: 6;
+	font-family: fresno, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: normal;
+}
+.footera {
+	color: white;
+	font-size: 20px;
+	top: 340px;
+	columns: 6;
+	left: 10px;
+	font-family: fresno, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: normal;
+}
+.footerb {
+	color: white;
+	font-size: 20px;
+	top: 340px;
+	columns: 6;
+	left: 10px;
+	font-family: fresno, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: normal;
+}
+.footerc {
+	color: white;
+	font-size: 20px;
+	top: 550px;
+	columns: 6;
+	left: 10px;
+	font-family: fresno, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: normal;
+}
+.footerd {
+	color: white;
+	font-size: 20px;
+	top: 550px;
+	columns: 6;
+	left: 10px;
+	font-family: fresno, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.home1 {
+	position: relative;
+	top: 350px;
+	left: 120px;
+}
+.home2 {
+	position: relative;
+	top: 350px;
+	left: 150px;
+}
+.home3 {
+	position: relative;
+	top: 300px;
+	left: 120px;
+}
+.home4 {
+	position: relative;
+	top: 550px;
+	left: 140px;
+}
+.home5 {
+	position: relative;
+	top: 550px;
+	left: 140px;
+}
+.pb1 {
+	position: relative;
+	top: 153px;
+	left: -10px;
+}
+.gif {
+	position: relative;
+	top: 153px;
+	left: -10px;
+}
+.dc1 {
+	position: relative;
+	top: 153px;
+	left: -10px;
+}
+.sc {
+	position: relative;
+	top: 153px;
+	left: -10px;
+}
+.rm{
+	position: relative;
+	top: 153px;
+	left: -10px;
 }
