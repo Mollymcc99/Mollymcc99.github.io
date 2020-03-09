@@ -1,7 +1,7 @@
 $(document).ready(function() {
   setTimeout(function() {
     $(".storm").addClass("alarm");
-  }, 3000);
+  }, 5000);
 });
 
 $(document).ready(function() {

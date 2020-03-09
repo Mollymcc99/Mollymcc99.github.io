@@ -91,13 +91,13 @@ section .wave.wave4 {
 	animation: animatestorm 15s;
 	top: 10px;
 	left: 0;
-	height: 400px;
-	background-size: 1000px 410px;
+	height: 440px;
+	background-size: 1000px 380px;
 }
 @keyframes animatestorm {
 	0% {background-position-y: 600%;
 	}
-	100% {background-position-y: -20%;
+	100% {background-position-y: 0%;
 	}
 }
 .storm.alarm {
