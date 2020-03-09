@@ -1,0 +1,951 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.bg {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: #3586ff;
+	overflow: hidden;
+}
+
+section .wave {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background: url(wave.png);
+	background-size: 1000px 100px;
+}
+section .wave.wave1 {
+	animation: animate 30s infinite;
+	z-index: 1000;
+	opacity: 1;
+	animation-delay: 0s;
+	bottom: 0;
+}
+section .wave.wave2 {
+	animation: animate2 15s infinite;
+	z-index: 999;
+	opacity: 0.5;
+	animation-delay: -5s;
+	bottom: 10px;
+}
+section .wave.wave3 {
+	animation: animate3 30s infinite;
+	z-index: 998;
+	opacity: 0.2;
+	animation-delay: -2s;
+	bottom: 15px;
+}
+section .wave.wave4 {
+	animation: animate4 15s infinite;
+	z-index: 997;
+	opacity: 0.2;
+	animation-delay: -1s;
+	bottom: 10px;
+}
+
+@keyframes animate
+{
+	0% {
+		background-position-x: 0;
+	}
+	100% {
+		background-position-x: 1000px;
+	}
+}
+@keyframes animate2
+{
+	0% {
+		background-position-x: 0;
+	}
+	100% {
+		background-position-x: -1000px;
+	}
+}
+@keyframes animate3
+{
+	0% {
+		background-position-x: 0;
+	}
+	100% {
+		background-position-x: -1000px;
+	}
+}
+@keyframes animate4
+{
+	0% {
+		background-position-x: 0;
+	}
+	100% {
+		background-position-x: 1000px;
+	}
+}
+.storm {
+	position: absolute;
+	width: 100%;
+	background: url(stormblank.png);
+	animation: animatestorm 15s;
+	top: 10px;
+	left: 0;
+	height: 400px;
+	background-size: 1000px 410px;
+}
+@keyframes animatestorm {
+	0% {background-position-y: 600%;
+	}
+	100% {background-position-y: -20%;
+	}
+}
+.storm.alarm {
+  background: url(storm.png);
+  cursor: pointer;
+}
+.tide {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 700px;
+	background: url(dots.png);
+	background-size: 1500px 800px;
+	animation: animatet 25s infinite;
+	opacity: 0.5;
+	animation-delay: -5s;
+	bottom: 10px;
+}
+@keyframes animatet
+{
+	0% {
+		background-position-y: -50%;
+	}
+	50% {
+		background-position-y: 100%;
+	}
+	100% {
+		background-position-y: -50%;
+	}
+}
+.lines1 {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 200px;
+}
+
+.lines1:hover {
+  background: url(blank.png);
+}
+.blank {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 200px;
+}
+
+
+
+.lines2 {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 220px;
+}
+
+.lines2:hover {
+  background: url(blank.png);
+}
+.blank2 {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 220px;
+}
+
+
+.lines3 {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 240px;
+}
+
+.lines3:hover {
+  background: url(blank.png);
+}
+.blank3 {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 240px;
+}
+
+
+.lines4 {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 260px;
+}
+
+.lines4:hover {
+  background: url(blank.png);
+}
+.blank4 {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 260px;
+}
+
+
+
+.lines5 {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 280px;
+}
+
+.lines5:hover {
+  background: url(blank.png);
+}
+.blank5 {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 280px;
+}
+
+
+
+.lines6 {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom:300px;
+}
+
+.lines6:hover {
+  background: url(blank.png);
+}
+.blank6 {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 300px;
+}
+
+
+
+
+.lines7 {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 320px;
+}
+
+.lines7:hover {
+  background: url(blank.png);
+}
+.blank7 {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 320px;
+}
+
+
+.lines8 {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 340px;
+}
+
+.lines8:hover {
+  background: url(blank.png);
+}
+.blank8 {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 340px;
+}
+
+
+
+
+.lines9 {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 360px;
+}
+
+.lines9:hover {
+  background: url(blank.png);
+}
+.blank9 {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 360px;
+}
+
+
+
+.linesa {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 380px;
+}
+
+.linesa:hover {
+  background: url(blank.png);
+}
+.blanka {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 380px;
+}
+
+
+
+.linesb {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 400px;
+}
+
+.linesb:hover {
+  background: url(blank.png);
+}
+.blankb {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 400px;
+}
+
+
+
+
+.linesc {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 420px;
+}
+
+.linesc:hover {
+  background: url(blank.png);
+}
+.blankc {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 420px;
+}
+
+.linesd {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 440px;
+}
+
+.linesd:hover {
+  background: url(blank.png);
+}
+.blankd {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 440px;
+}
+
+.linese {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 460px;
+}
+
+.linese:hover {
+  background: url(blank.png);
+}
+.blanke {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 460px;
+}
+.linesf {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 480px;
+}
+
+.linesf:hover {
+  background: url(blank.png);
+}
+.blankf {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 500px;
+}
+.linesg {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 500px;
+}
+
+.linesg:hover {
+  background: url(blank.png);
+}
+.blankg {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 500px;
+}
+.linesh {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 520px;
+}
+
+.linesh:hover {
+  background: url(blank.png);
+}
+.blankh {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 520px;
+}
+.linesi {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 540px;
+}
+
+.linesi:hover {
+  background: url(blank.png);
+}
+.blanki {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 540px;
+}
+.linesj {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 560px;
+}
+
+.linesj:hover {
+  background: url(blank.png);
+}
+.blankj {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 560px;
+}
+.linesk {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 580px;
+}
+
+.linesk:hover {
+  background: url(blank.png);
+}
+.blankk {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 580px;
+}
+.linesl {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 600px;
+}
+
+.linesl:hover {
+  background: url(blank.png);
+}
+.blankl {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 600px;
+}
+.linesm {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 620px;
+}
+
+.linesm:hover {
+  background: url(blank.png);
+}
+.blankm {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 620px;
+}
+.linesn {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 640px;
+}
+
+.linesn:hover {
+  background: url(blank.png);
+}
+.blankn {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 640px;
+}
+.lineso {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 660px;
+}
+
+.lineso:hover {
+  background: url(blank.png);
+}
+.blanko {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 660px;
+}
+.linesp {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 680px;
+}
+
+.linesp:hover {
+  background: url(blank.png);
+}
+.blankp {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 680px;
+}
+.linesq {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 180px;
+}
+
+.linesq:hover {
+  background: url(blank.png);
+}
+.blankq {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 180px;
+}
+.linesr {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 160px;
+}
+
+.linesr:hover {
+  background: url(blank.png);
+}
+.blankr {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 160px;
+}
+.liness {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 140px;
+}
+
+.liness:hover {
+  background: url(blank.png);
+}
+.blanks {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 140px;
+}
+.linest {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 120px;
+}
+
+.linest:hover {
+  background: url(blank.png);
+}
+.blankt {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 120px;
+}
+.linesu {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 100px;
+}
+
+.linesu:hover {
+  background: url(blank.png);
+}
+.blanku {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 100px;
+}
+.linesv {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(lines.png);
+	background-size: 230px 40px;
+	transition: 0.25s ease-in-out;
+	bottom: 80px;
+}
+
+.linesv:hover {
+  background: url(blank.png);
+  
+}
+.blankv {
+	position: absolute;
+	bottom: 200px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: url(blank.png);
+	background-size: 230px 40px;
+	bottom: 80px;
+}
+.switch {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 130px;
+  height: 46px;
+  border-radius: 14px;
+  background-color: rgb(43,43,43);
+}
