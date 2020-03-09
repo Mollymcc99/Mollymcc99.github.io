@@ -91,13 +91,13 @@ section .wave.wave4 {
 	animation: animatestorm 15s;
 	top: 10px;
 	left: 0;
-	height: 400px;
-	background-size: 1000px 410px;
+	height: 440px;
+	background-size: 1000px 380px;
 }
 @keyframes animatestorm {
 	0% {background-position-y: 600%;
 	}
-	100% {background-position-y: -20%;
+	100% {background-position-y: 0%;
 	}
 }
 .storm.alarm {
@@ -940,12 +940,4 @@ section .wave.wave4 {
 	background-size: 230px 40px;
 	bottom: 80px;
 }
-.switch {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 130px;
-  height: 46px;
-  border-radius: 14px;
-  background-color: rgb(43,43,43);
-}
+
